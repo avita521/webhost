@@ -1,6 +1,6 @@
 ## webhost自动化批量保号，每月1号自动登录一次面板，并且发送消息到Telegram
 
-### 将代码fork到你的仓库并运行的操作步骤
+### 将代码fork到你的仓库并运行的操作步骤：
 
 #### 1. Fork 仓库
 
@@ -21,7 +21,7 @@
     - 转到你 fork 的仓库页面。
     - 点击 `Settings`，然后在左侧菜单中选择 `Secrets`。
     - 添加以下 Secrets：
-        - `WEBHOST`: 账号信息,格式 账号1:密码 账号2:密码 账号3:密码
+        - `WEBHOST`: 账号信息,格式 账号 1:密码 账号 2:密码 账号 3:密码
         - `TELEGRAM_BOT_TOKEN`: 你的 Telegram Bot 的 API Token。
         - `TELEGRAM_CHAT_ID`: 你的 Telegram Chat ID。
 
